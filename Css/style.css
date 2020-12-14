@@ -1,0 +1,249 @@
+body {
+  background-image: url(../Slike/Artboard\ 1.png);
+  text-align: justify;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+h2 {
+  color: #a6e79f;
+  font-size: 30px;
+}
+
+a:hover {
+  opacity: 60%;
+}
+
+.navbar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #07220f;
+}
+
+.navbar-item {
+  
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-right: 80px;
+  padding: 14px 16px;
+  text-decoration: none;
+  -webkit-text-stroke: 0.25px rgb(3, 39, 14);
+}
+
+.navbar-item:hover {
+  background-color: rgb(43, 124, 63);
+  cursor: default;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0px 200px 0px;
+  background: hsla(114, 48%, 33%, 0.767);
+  color: white;
+}
+
+.gallery-container {
+  max-width: 1170px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+img {
+  transition: all 0.2s ease-in-out;
+}
+
+.popup-gallery img {
+  max-width: auto;
+  height: 200px;
+  margin: 10px;
+}
+
+.popup-gallery img:hover {
+  transform: scale(1.1);
+}
+
+table {
+  border-spacing: 0.5rem;
+  width: 100%;
+}
+
+td {
+  padding: 15px;
+  background: #145e0b;
+  color: white;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #041f02;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.kategorija p {
+  background-color: hsl(128, 33%, 25%);
+  color: white;
+}
+
+.kategorija img {
+  max-width: auto;
+  height: 200px;
+  margin: 10px;
+}
+
+.kategorija img:hover {
+  transform: scale(1.1);
+}
+
+.kategorija h2 {
+  color: #1a5214;
+}
+
+#tabs {
+  text-align: left;
+  margin-left: 155px;
+  margin-right: 155px;
+}
+
+.kategorija {
+  align-items: center;
+}
+
+.pozadina {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0% 0% 0%;
+}
+
+.naslov {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.naslov h1 {
+  font-size: 80px;
+  -webkit-text-stroke: 2px rgb(2, 34, 7);
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+    -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#accordion {
+  margin-bottom: 20px;
+}
+
+.zivotinja {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 60px;
+  border-top: #0b4904 solid 20px;
+  padding-top: 30px;
+}
+
+.zivotinja img {
+  max-height: auto;
+  width: 70%;
+  border-radius: 25px;
+  border: 2px solid #14410f;
+}
+
+.text {
+  border-radius: 25px;
+  border: 2px solid #209114;
+  padding: 20px;
+  background-color: white;
+  font-size: 120%;
+  margin: 15px;
+}
+
+.zivotinja .text {
+  border-radius: 25px;
+  border: 2px solid #209114;
+  padding: 20px;
+  background-color: white;
+  color: #000;
+  font-size: 120%;
+  margin: 15px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+#ulaznice-form {
+  font-size: 20px;
+}
+#ulaznice-form p {
+  font-size: 35px;
+}
+
+input[type="text"],
+select,
+#email {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+button {
+  width: 40%;
+  padding: 5px 5px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #07220f;
+  color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: black;
+}
